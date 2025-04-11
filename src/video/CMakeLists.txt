@@ -85,51 +85,41 @@ add_library(vid OBJECT
 
     nv/nv_base.c nv/nv_rivatimer.c
     
-    nv/nv3/nv3_core.c 
-    nv/nv3/nv3_core_config.c 
-    nv/nv3/nv3_core_arbiter.c  
+    nv/nv4/nv4_core.c 
+    nv/nv4/nv4_core_config.c 
+    nv/nv4/nv4_core_arbiter.c  
 
-    nv/nv3/subsystems/nv3_pramdac.c 
-    nv/nv3/subsystems/nv3_pfifo.c
-    nv/nv3/subsystems/nv3_pgraph.c 
-    nv/nv3/subsystems/nv3_pmc.c 
-    nv/nv3/subsystems/nv3_pme.c
-    nv/nv3/subsystems/nv3_pextdev.c
-    nv/nv3/subsystems/nv3_pfb.c
-    nv/nv3/subsystems/nv3_pbus.c nv/nv3/subsystems/nv3_pbus_dma.c
-    nv/nv3/subsystems/nv3_ptimer.c
-    nv/nv3/subsystems/nv3_pramin.c nv/nv3/subsystems/nv3_pramin_ramht.c nv/nv3/subsystems/nv3_pramin_ramfc.c nv/nv3/subsystems/nv3_pramin_ramro.c 
-    nv/nv3/subsystems/nv3_pvideo.c
-    nv/nv3/subsystems/nv3_user.c
+    nv/nv4/subsystems/nv4_pramdac.c 
+    nv/nv4/subsystems/nv4_pfifo.c
+    nv/nv4/subsystems/nv4_pgraph.c 
+    nv/nv4/subsystems/nv4_pmc.c 
+    nv/nv4/subsystems/nv4_pme.c
+    nv/nv4/subsystems/nv4_pextdev.c
+    nv/nv4/subsystems/nv4_pfb.c
+    nv/nv4/subsystems/nv4_pbus.c nv/nv4/subsystems/nv4_pbus_dma.c
+    nv/nv4/subsystems/nv4_ptimer.c
+    nv/nv4/subsystems/nv4_pramin.c nv/nv4/subsystems/nv4_pramin_ramht.c nv/nv4/subsystems/nv4_pramin_ramfc.c nv/nv4/subsystems/nv4_pramin_ramro.c 
+    nv/nv4/subsystems/nv4_pvideo.c
+    nv/nv4/subsystems/nv4_user.c
 
-    nv/nv3/classes/nv3_class_names.c
-    nv/nv3/classes/nv3_class_shared_methods.c
-    nv/nv3/classes/nv3_class_001_beta_factor.c
-    nv/nv3/classes/nv3_class_002_rop.c
-    nv/nv3/classes/nv3_class_003_chroma_key.c
-    nv/nv3/classes/nv3_class_004_plane_mask.c
-    nv/nv3/classes/nv3_class_005_clipping_rectangle.c
-    nv/nv3/classes/nv3_class_006_pattern.c
-    nv/nv3/classes/nv3_class_007_rectangle.c
-    nv/nv3/classes/nv3_class_008_point.c
-    nv/nv3/classes/nv3_class_009_line.c
-    nv/nv3/classes/nv3_class_00a_lin.c
-    nv/nv3/classes/nv3_class_00b_triangle.c
-    nv/nv3/classes/nv3_class_00c_win95_gdi_text.c
-    nv/nv3/classes/nv3_class_00d_m2mf.c
-    nv/nv3/classes/nv3_class_00e_scaled_image_from_mem.c
-    nv/nv3/classes/nv3_class_010_blit.c
-    nv/nv3/classes/nv3_class_011_image.c
-    nv/nv3/classes/nv3_class_012_bitmap.c
-    nv/nv3/classes/nv3_class_014_transfer2memory.c
-    nv/nv3/classes/nv3_class_015_stretched_image_from_cpu.c
-    nv/nv3/classes/nv3_class_017_d3d5_tri_zeta_buffer.c
-    nv/nv3/classes/nv3_class_018_point_zeta_buffer.c
-    nv/nv3/classes/nv3_class_01c_image_in_memory.c
+    nv/nv4/classes/nv4_class_names.c
+    nv/nv4/classes/nv4_class_shared_methods.c
+    nv/nv4/classes/nv4_class_0012_beta_factor.c
+    nv/nv4/classes/nv4_class_0043_rop.c
+    nv/nv4/classes/nv4_class_0057_chroma_key.c
+    nv/nv4/classes/nv4_class_0019_clipping_rectangle.c
+    nv/nv4/classes/nv4_class_0044_pattern.c
+    nv/nv4/classes/nv4_class_005e_rectangle.c
+    nv/nv4/classes/nv4_class_005c_lin.c
+    nv/nv4/classes/nv4_class_005d_triangle.c
+    nv/nv4/classes/nv4_class_0039_m2mf.c
+    nv/nv4/classes/nv4_class_005f_blit.c
+    nv/nv4/classes/nv4_class_0061_image.c
+    nv/nv4/classes/nv4_class_0054_d3d5_tri.c
+    nv/nv4/classes/nv4_class_0055_d3d6_tri.c
 
-    nv/nv3/render/nv3_render_core.c
-    nv/nv3/render/nv3_render_primitives.c   
-    nv/nv3/render/nv3_render_blit.c    
+    nv/nv4/render/nv4_render_core.c
+    nv/nv4/render/nv4_render_blit.c    
  
 )
 

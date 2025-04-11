@@ -66,6 +66,10 @@ void nv_log_verbose_only(const char *fmt, ...);
 #define NV_CHIP_REVISION_NV3_B0 0x0010  // October 1997
 #define NV_CHIP_REVISION_NV3_C0 0x0020  // 1998
 
+#define NV_CHIP_REVISION_NV4_A0 0x0000
+#define NV_CHIP_REVISION_NV4_B0 0x0001
+#define NV_CHIP_REVISION_NV4_C0 0x0004
+
 // Architecture IDs
 #define NV_ARCHITECTURE_NV1     1       // NV1/STG2000
 #define NV_ARCHITECTURE_NV2     2       // Nvidia 'Mutara V08' 
